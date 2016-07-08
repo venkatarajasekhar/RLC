@@ -1,0 +1,2 @@
+double standardized_distance(TimeSeries &query, int query_os, int query_len, TimeSeries &object, int object_os, int object_len, double stop_value);
+vector<double> standardized_series(TimeSeries &ts, int os, int len);
